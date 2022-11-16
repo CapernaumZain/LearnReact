@@ -10,10 +10,22 @@ const Navbar = () =>
   </div>
 const Swiper = () =>
   <div>这是轮播图组件</div>
-const Tabbar = () =>
-  <div>这是底部组件</div>
+class Tabbar extends Component {
+  render () {
+    return (
+      <div>
+        <div>
+          这是tabbar组件
+        <div>
+          这是tabbar组件的子组件
+        </div>
+        </div>
+      </div>
+    )
+  }
+}
 
-export default class APP extends Component {
+export default class App extends Component {
   render() {
     return (
       <div>
